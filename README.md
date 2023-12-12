@@ -1,1 +1,4 @@
 # Vaccine-Dist-Codes-Data
+optimization model and algorithms for vaccine distribution in low and middle income countries. 
+This code is writtten in Julia language. The code consits of 5 serperate files: optimization model (Model-central-V2.jl); Data creation file (SenarioFunctions-V2.jl); Algorithm to solve the model (VSCD-Simulation-V2.jl); run file (SolveModel-V2.jl); and print functions for results (printFunctions-V2.jl). The data sources cannot be shared, therefore we only share the raw codes. Data include 3 files (data-V1; data-V2, and Demand) in Excel. data-V1 inlcudes the caapcities for vaccine supply chain regional stores, district stores, and clinics. data-V2 inlcudes the vaccine characteristics including number of doses/vial; packed volume c.c./dose; diluent volume c.c./dose; number of doses administered per child; and open vial wastage rate. Demand includes mean and standard deviaiton of demand per region for each vaccine.
+
